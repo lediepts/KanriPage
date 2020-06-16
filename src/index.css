@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.ck-content {
+    min-height: 300px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.CodeMirror {
+    height: 100% !important;
+    font-size: 16px;
+}
+
+.react-codemirror2 {
+    height: 70vh;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+@keyframes toas {
+    0% {
+        transform: translate3d(0, -50%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
